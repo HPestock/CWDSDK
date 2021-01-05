@@ -18,9 +18,9 @@ var I_MOVLR = 0x4; //MOV location register; memory[location]'S VALUE BECOMES R_r
 
 var I_MOVLN = 0x5; //MOV location number; memory[location]'S VALUE BECOMES number - yes
 
-var I_ADDRN = 0x6; //ADDRN register number; register += number - currently working on
+var I_ADDRN = 0x6; //ADDRN register number; register += number - yes
 
-var I_ADDRR = 0x7; //ADDRL register register2; register += register2'S VALUE - no
+var I_ADDRR = 0x7; //ADDRL register register2; register += register2'S VALUE - currently working on
 
 var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - no
 
