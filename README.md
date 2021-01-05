@@ -14,9 +14,9 @@ var I_MOVRR = 0x2; //MOV register register2; R_register'S VALUE BECOMES R_regist
 
 var I_MOVRL = 0x3; //MOV register location; R_register'S VALUE BECOMES memory[location]'S VALUE - yes
 
-var I_MOVLR = 0x4; //MOV location register; memory[location]'S VALUE BECOMES R_register'S VALUE - currently working on
+var I_MOVLR = 0x4; //MOV location register; memory[location]'S VALUE BECOMES R_register'S VALUE - yes
 
-var I_MOVLN = 0x5; //MOV location number; memory[location]'S VALUE BECOMES number - no
+var I_MOVLN = 0x5; //MOV location number; memory[location]'S VALUE BECOMES number - currently working on
 
 var I_ADDRN = 0x6; //ADDRN register number; register += number - no
 
