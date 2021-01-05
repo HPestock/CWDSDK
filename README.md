@@ -20,7 +20,7 @@ var I_MOVLN = 0x5; //MOV location number; memory[location]'S VALUE BECOMES numbe
 
 var I_ADDRN = 0x6; //ADDRN register number; register += number - yes
 
-var I_ADDRR = 0x7; //ADDRL register register2; register += register2'S VALUE - currently working on
+var I_ADDRR = 0x7; //ADDRR register register2; register += register2'S VALUE - currently working on
 
 var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - no
 
