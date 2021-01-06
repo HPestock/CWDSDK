@@ -54,7 +54,7 @@ var I_BGT = 0x16; //BGT memorylocation; IF CMP PASSED GT, PC = memorylocation - 
 
 var I_BGE = 0x17; //BGE memorylocation; IF CMP PASSED GE, PC = memorylocation - no
 
-var I_CLS = 0x18; //CLS; CLEAR SCREEN
+var I_CLS = 0x18; //CLS; CLEAR SCREEN - no
 
 var I_HALT = 0xFFFF; //HALT exitcode; running = exitcode, execution full stops - yes
 
