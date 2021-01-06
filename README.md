@@ -20,11 +20,11 @@ var I_MOVLN = 0x5; //MOV location number; memory[location]'S VALUE BECOMES numbe
 
 var I_ADDRN = 0x6; //ADDRN register number; register += number - yes
 
-var I_ADDRR = 0x7; //ADDRR register register2; register += register2'S VALUE - currently working on
+var I_ADDRR = 0x7; //ADDRR register register2; register += register2'S VALUE - yes
 
-var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - no
+var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - yes
 
-var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - no
+var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - currently working on
 
 var I_SETDRAWATTR = 0xA; //SETDRAWATTR attribute value; attribute'S VALUE BECOMES value - no
 
@@ -58,3 +58,5 @@ var I_HALT = 0xFFFF; //HALT exitcode; running = exitcode, execution full stops -
 
 
 1/5/2021 - Working on CSDKVM, CSDKC has not been planned out yet and might be discontinued at a later date, but hopefully not. 
+
+1/6/2021 - Moved different parts of program to multiple files for orginization. 
