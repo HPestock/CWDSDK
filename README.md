@@ -20,7 +20,7 @@ var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - yes
 var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - yes
 var I_SETDRAWATTR = 0xA; //SETDRAWATTR attribute value; attribute'S VALUE BECOMES value - yes
 var I_MSDRAWATTR = 0xB; //MSDRAWATTR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY NUMBER (Mass Set Draw Attributes) - yes
-var I_MSDRAWATTRR = 0xC; //MSDRAWATTRR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY REGISTER - no
+var I_MSDRAWATTRR = 0xC; //MSDRAWATTRR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY REGISTER - no, may be removed
 var I_JMP = 0xD; //JMP memorylocation; PC = memorylocation - yes
 var I_JSR = 0xE; //JSR memorylocation; PCRET = PC, PC = memorylocation - no
 var I_RTS = 0xF; //RTS; PC = PCRET - no
