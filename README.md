@@ -24,9 +24,9 @@ var I_ADDRR = 0x7; //ADDRR register register2; register += register2'S VALUE - y
 
 var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - yes
 
-var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - currently working on
+var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - yes
 
-var I_SETDRAWATTR = 0xA; //SETDRAWATTR attribute value; attribute'S VALUE BECOMES value - no
+var I_SETDRAWATTR = 0xA; //SETDRAWATTR attribute value; attribute'S VALUE BECOMES value - currently working on
 
 var I_MSDRAWATTR = 0xB; //MSDRAWATTR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY NUMBER - no
 
