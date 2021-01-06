@@ -5,6 +5,7 @@ This project uses an open source software called p5.js (https://p5js.org/), whic
 
 Instructions (actual code used): 
 //USAGE; DESCRIPTION - implemented yet?
+//(please use raw mode on github)
 
 var I_NOP = 0x0; - yes
 var I_MOVRN = 0x1; //MOV register value; R_register'S VALUE BECOMES value - yes
