@@ -20,18 +20,18 @@ var I_SUBTRN = 0x8; //SUBTRN register number; register -= number - yes
 var I_SUBTRR = 0x9; //SUBTRR register register2; register -= register2'S VALUE - yes
 var I_SETDRAWATTR = 0xA; //SETDRAWATTR attribute value; attribute'S VALUE BECOMES value - yes
 var I_MSDRAWATTR = 0xB; //MSDRAWATTR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY NUMBER (Mass Set Draw Attributes) - yes
-var I_MSDRAWATTRR = 0xC; //MSDRAWATTRR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY REGISTER
+var I_MSDRAWATTRR = 0xC; //MSDRAWATTRR x0val y0val x1val y1val rval gval bval; SETS ALL DRAW ATTRIBUTES BY REGISTER - no
 var I_JMP = 0xD; //JMP memorylocation; PC = memorylocation - yes
-var I_JSR = 0xE; //JSR memorylocation; PCRET = PC, PC = memorylocation
-var I_RTS = 0xF; //RTS; PC = PCRET
-var I_REFRESH = 0x10; //REFRESH; FUNCTIONALLY THE SAME AS NOP BUT OPTIMIZED FOR REFRESHING FRAMES
-var I_CMP = 0x11; //CMP register number; COMPARE register TO number AND SET ALL FLAGS ON REGISTER FL
-var I_BEQ = 0x12; //BEQ memorylocation; IF CMP PASSED EQ, PC = memorylocation
-var I_BNE = 0x13; //BNE memorylocation; IF CMP PASSED NE, PC = memorylocation
-var I_BLT = 0x14; //BLT memorylocation; IF CMP PASSED LT, PC = memorylocation
-var I_BLE = 0x15; //BLE memorylocation; IF CMP PASSED LE, PC = memorylocation
-var I_BGT = 0x16; //BGT memorylocation; IF CMP PASSED GT, PC = memorylocation
-var I_BGE = 0x17; //BGE memorylocation; IF CMP PASSED GE, PC = memorylocation
+var I_JSR = 0xE; //JSR memorylocation; PCRET = PC, PC = memorylocation - no
+var I_RTS = 0xF; //RTS; PC = PCRET - no
+var I_REFRESH = 0x10; //REFRESH; FUNCTIONALLY THE SAME AS NOP BUT OPTIMIZED FOR REFRESHING FRAMES - no
+var I_CMP = 0x11; //CMP register number; COMPARE register TO number AND SET ALL FLAGS ON REGISTER FL - no
+var I_BEQ = 0x12; //BEQ memorylocation; IF CMP PASSED EQ, PC = memorylocation - no
+var I_BNE = 0x13; //BNE memorylocation; IF CMP PASSED NE, PC = memorylocation - no
+var I_BLT = 0x14; //BLT memorylocation; IF CMP PASSED LT, PC = memorylocation - no
+var I_BLE = 0x15; //BLE memorylocation; IF CMP PASSED LE, PC = memorylocation - no
+var I_BGT = 0x16; //BGT memorylocation; IF CMP PASSED GT, PC = memorylocation - no
+var I_BGE = 0x17; //BGE memorylocation; IF CMP PASSED GE, PC = memorylocation - no
 var I_CLS = 0x18; //CLS; CLEAR SCREEN - yes
 var I_DRAW = 0x19; //DRAW mode; (mode 0): draws and refreshes, (mode 1): draws without refreshing. Draws based on drawattr insts - yes
 var I_SETDRAWATTRR = 0x1A; //SETDRAWATTR attribute R_register; will add desc later - yes
