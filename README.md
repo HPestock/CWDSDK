@@ -40,6 +40,8 @@ var I_SETDRAWATTRR = 0x1A; //SETDRAWATTR attribute R_register; will add desc lat
 var I_HALT = 0xFFFF; //HALT exitcode; running = exitcode, execution full stops - yes
 
 
-1/5/2021 - Working on CSDKVM, CSDKC has not been planned out yet and might be discontinued at a later date, but hopefully not. 
+1/5/2021 - Working on CWDSDKVM, CSDKC has not been planned out yet and might be discontinued at a later date, but hopefully not. 
 
 1/6/2021 - Moved different parts of program to multiple files for orginization. 
+
+Also 1/6/2021 - Changed the name so I don't get sued. 
