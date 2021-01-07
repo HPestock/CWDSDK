@@ -1,5 +1,7 @@
-# CSDK
-CSDK (Chris' Software Development Kit) is a program that uses a VM (CSDKVM) and a compiler (CSDKC) to create a web development system that can be closed source without needing to set up a web server using Node.JS or similar applications. 
+# CWDSDK
+CWDSDK (Chris' Web Development Software Development Kit) is a program that uses a VM (CSDKVM) and a compiler (CSDKC) to create a web development system that can be closed source without needing to set up a web server using Node.JS or similar applications. 
+
+(Used to be called CSDK (Chris' Sorce Development Kit) until I found out that the name was trademarked by Oracle Corporation (Client SDK), I do NOT wanna mess with them, especially with trademarks, so I changed it to CWDSDK. )
 
 This project uses an open source software called p5.js (https://p5js.org/), which is in no way mine and is used in this project. 
 
